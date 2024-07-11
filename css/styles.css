@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212F3C;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header img {
+    width: 8%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+main {
+    color: black;
+}
+
 .redes-sociales {
     list-style: none;
     display: flex;
@@ -32,6 +55,11 @@ a {
     text-decoration: none;
 }
 
-a:link, :visited, :hover, :active{
-    color: #fff;
+li:hover {
+    transform: scale(1.2);
+    color: #cccc;
+}
+
+a:link, :visited, :active{
+    color: inherit;
 }
